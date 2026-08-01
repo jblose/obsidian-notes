@@ -1,0 +1,22 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Python/cache/build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Obsidian local state that is usually machine/user specific
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Attachments and generated exports can be large/private by default.
+# Keep placeholders/docs tracked, add intentional public assets explicitly.
+_artifacts/*
+!_artifacts/.gitkeep
