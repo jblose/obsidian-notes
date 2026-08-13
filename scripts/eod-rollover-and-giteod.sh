@@ -11,4 +11,5 @@ cd "${REPO_ROOT}"
 
 "${REPO_ROOT}/scripts/rollover-daily-todos.sh" "${TOMORROW}" "${TODAY}"
 "${REPO_ROOT}/scripts/update-person-last-met.sh"
+"${REPO_ROOT}/scripts/cleanup-unused-dailies.sh"
 "${REPO_ROOT}/scripts/giteod.sh" "${1:-$(date "+%F-%H-%M-%S")}"
